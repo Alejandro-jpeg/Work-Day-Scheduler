@@ -48,7 +48,9 @@ setInterval(updateTimeBlocks, 300000)
 
 //TODO: EVENT LISTENER IN THE SAVE BUTTON THAT SAVES THE DATA FROM THE DESCRIPTION
 $('.saveBtn').on('click', function(){
-
+  //TODO: clicking on the button saves the user input of a specific box to local storage
+    //Make it so that the button works only on its parent box
+    //save on the local storage
 })
 
 //TODO: GETTING AND RENDERING THE SAVED DATA IN THE CORRESPONDING TEXTBLOCK
